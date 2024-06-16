@@ -2,18 +2,18 @@
 
 1. Download Ollama from:
    https://www.ollama.com/
-   ![alt text](image.png)
+   ![alt text](Images/image.png)
 
 2. Run and chat with Llama 3:
    Open shell and run the command:
 
 `ollama run llama3`
 
-![alt text](image-1.png)
+![alt text](Images/image-1.png)
 
 2.1 Send a message to ask llama3
 
-![alt text](image-2.png)
+![alt text](Images/image-2.png)
 
 2.2. Interact with the Llama3 via the curl command
 
@@ -31,10 +31,10 @@ curl http://localhost:11434/api/chat -d '{
 }'
 ```
 
-![alt text](image-3.png)
+![alt text](Images/image-3.png)
 
 - Final response:
-  ![alt text](image-4.png)
+  ![alt text](Images/image-4.png)
 
 3. Run and chat with Phi 3 Mini
 
@@ -43,7 +43,7 @@ Open shell and run the command:
 `ollama run phi3`
 
 3.1 Send a message to ask Phi 3 Mini
-![alt text](image-5.png)
+![alt text](Images/image-5.png)
 
 3.2. Interact with the Phi 3 Mini via the curl command
 
@@ -59,7 +59,7 @@ curl http://localhost:11434/api/chat -d '{
 ```
 
 - Final response:
-  ![alt text](image-6.png)
+  ![alt text](Images/image-6.png)
 
 4. Compare
 
@@ -68,11 +68,11 @@ curl http://localhost:11434/api/chat -d '{
 what is partial differential equation?
 
 - Response by llama3:
-  ![alt text](image-7.png)
+  ![alt text](Images/image-7.png)
 
 - Response by phi3:
 
-![alt text](image-8.png)
+![alt text](Images/image-8.png)
 
 - Analyze
 
